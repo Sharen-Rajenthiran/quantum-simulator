@@ -28,10 +28,10 @@ Please refer to the references section for the installation guide.
 
 ## Backend Setup 🛠️
 1. Clone the repository: 
-         `git clone <repository-url>`
+         `git clone https://github.com/Sharen-Rajenthiran/quantum-simulator.git`
 2. Change the directory to the repository directory:
-           `cd <repository-directory>` 
-3. Navigate to the backend folder: `cd backend`
+           `cd quantum-simulator` 
+3. Navigate to the backend folder if you haven't in step 2: `cd quantum-simulator`
 4. Create a virtual environment (optional but recommended): `python -m venv your_environment_name`
 5. Activate your virtual environment if you have completed step 4: `your_environment_name\Scripts\activate`
 6. Install the required packages:
