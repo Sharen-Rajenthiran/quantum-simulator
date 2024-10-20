@@ -1,0 +1,5 @@
+fastapi==0.115.2
+uvicorn==0.32.0
+qiskit==1.2.4
+qiskit-aer==0.15.1
+pydantic==2.9.2
