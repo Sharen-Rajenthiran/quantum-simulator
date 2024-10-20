@@ -1,0 +1,74 @@
+.App {
+    text-align: center;
+  }
+  
+  header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px 0;
+  }
+  
+  .gate-selector, .qubit-selector {
+    text-align: left;
+  }
+  
+  .gate-button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .circuit-grid {
+    margin: 20px auto;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .qubit-row {
+    display: flex;
+  }
+  
+  .qubit-label, .time-label {
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .grid-cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .run-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .empty-cell {
+    width: 50px;
+  }
+  
+  .time-steps {
+    display: flex;
+  }
+  
+  .time-label {
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
